@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1605379399843-5870eea9b74e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1798&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+#myHeader {
+  background-color: rgb(203, 203, 220);
+  color: rgb(0, 0, 0);
+  padding: 25px;
+  text-align: center;
+}
+.clase {
+  background-color: rgb(101, 105, 105);
+  color: rgb(186, 190, 194);
+  padding: 25px;
+} 
+h1 {
+  text-align: center;
+  color:#f3f3f7
+}
+h2 { 
+  text-align: center;
+  color:#f3f3f7
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  color:#f3f3f7
+}
+a{
+    color:#f3f3f7 
+}   
+button{
+        text-decoration: none;
+        padding: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        color: #f4f4f7;
+        background-color: #abb0b0;
+        border-radius: 15px;
+        border: 4px solid #f3f3f7;
+      }
+
+</style>
+</head>
+
+<body>
+<h2 style="font-size:50px;">Matematica Discreta Ciclo 2022</h2>
+<h1 id="myHeader" style="font-size:42px;">Mis Clases</h1>
+
+<h2 class="clase" style="font-size:30px;">Primera Clase</h2>
+        <style type="text/css"> #contenido, #ocultar{ display: none;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <button type="button" onclick="mostrarContenido();" style="font-size:25px;">Ver Clase</button>
+    
+        <div id="contenido" style="display: none;">
+        <h1 style="font-size:30px; background-color:rgb(143, 145, 145);">Tema: Principio de la Adicion y Multiplicacion</h1>
+        <p style="font-size:30px;">Principios Fundamentales del Conteo</p>
+        <ul>
+            <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+            El principio fundamental de conteo establece que el 
+            número de posibilidades en que múltiples eventos 
+            pueden ocurrir se pueden determinar al multiplicar el 
+            número de resultados posibles por cada evento.
+            <center>ㅤㅤㅤㅤㅤ</center>
+            </li> 
+      
+            <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+              <pre style="font-size:28px">
+                <center>Regla de la Suma</center>
+                Principio de la suma o adición: Supongamos que un 
+                evento E puede ocurrir en m formas y un segundo 
+                evento F puede ocurrir en n formas, y supongamos 
+                que ambos eventos no pueden ocurrir en forma 
+                simultánea (disjuntos o mutuamente excluyentes).
+                Entonces E o F pueden ocurrir de m+n formas
+              </pre>
+            </li>
+
+            <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+                <pre style="font-size:28px">
+                  <center>Regla de la Multiplicación</center>
+                  Supongamos que un evento E puede ocurrir en m 
+                  formas e independientemente de este evento, un
+                  evento F puede ocurrir en n formas.Entonces las 
+                  combinaciones de los eventos E y F pueden 
+                  ocurrir en mn formas.
+                </pre>
+              </li>
+
+              <h1 style="font-size:30px; background-color:rgb(143, 145, 145);">Ejemplo</h1>
+
+        <img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/313993302_1840237052985708_4327627565133460602_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=olbQ5H931oUAX-uSYwH&_nc_ht=scontent.fgua9-1.fna&oh=00_AfC1y6FJ5PjsUm2M95iFnA-Beh5CiGvwotNJJyEZvcMnxA&oe=636AE6AB" width="1000" height="600">
+        <img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314361761_1840237062985707_8954889401097008023_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=UwFvfu-58VsAX_SlFhp&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCdLNUes_pnbf3ZZ2hfWn7UIOAy56QnzjAhWu3OhlrCSA&oe=636A1BA6" width="1000" height="600">
+        <h1 style="font-size:30px; background-color:rgb(143, 145, 145);">Resolver problema</h1>
+        <img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314411443_1840240749652005_4545508626578612183_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=8SvlDXbaFIAAX9kkNaP&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-1.fna&oh=00_AfAhvRWM0wyRaYHghzT3HJATaQeQ27Mm2_dghnhDHVSNuw&oe=636B0AFA" width="1000" height="600">
+            <a href="javascript:void(0);" onclick="ocultarContenido();" style="font-size:25px;">Ocultar Clase</a>
+        </div>
+    
+        <script type="text/javascript">
+            function mostrarContenido() {
+                document.getElementById('contenido').style.display = 'block';
+                document.getElementById('ocultar').style.display = 'none';
+            }
+            function ocultarContenido() {
+                document.getElementById('contenido').style.display = 'none';
+                document.getElementById('ocultar').style.display = 'block';
+            }
+        </script>
+        
+    <div>ㅤㅤㅤㅤㅤ</div>
+    
+    <style type="text/css"> #contenido2, #ocultar2{ display: none;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <button type="button" onclick="mostrarContenido2();" style="font-size:25px;">Ver Problema</button>
+    
+        <div id="contenido2" style="display: none;">    
+        <h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+        <img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314580889_1840239342985479_4031472706936262705_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=Hm9y8pONT8oAX-h9Ptx&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-2.fna&oh=00_AfBrrYRxBCoqU3B_FIAPks5Xlk3gKFD0c9dBBDk_8cFJbw&oe=636A9079" width="1000" height="600">
+            <a href="javascript:void(0);" onclick="ocultarContenido2();" style="font-size:25px;">Ocultar Problema</a>
+        </div>
+    
+        <script type="text/javascript">
+            function mostrarContenido2() {
+                document.getElementById('contenido2').style.display = 'block';
+                document.getElementById('ocultar2').style.display = 'none';
+            }
+            function ocultarContenido2() {
+                document.getElementById('contenido2').style.display = 'none';
+                document.getElementById('ocultar2').style.display = 'block';
+            }
+        </script> 
+
+<h2 class="clase" style="font-size:30px;">Segunda Clase</h2>
+<style type="text/css"> #contenido3, #ocultar3{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido3();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido3" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Permutaciones y Combinaciones</h1>
+<p style="font-size:28px;">Permutaciones</p>
+<ul>
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        Hay dos tipos de permutaciones:     Se permite repetir: por ejemplo, para abrir una 
+        cerradura puedes utilizar "333".
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        Sin repetición: por ejemplo, los tres primeros en una carrera. No puedes quedar primero y segundo a la vez.
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        SPermutaciones con Repetición 
+        Son las más fáciles de calcular. Si tienes n cosas 
+        para elegir y eliges r de ellas, las permutaciones 
+        posibles son:
+        n × n × ... (r veces) = nr
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        Porque hay n posibilidades para la primera elección, DESPUÉS hay n posibilidades para la segunda elección, y así hasta llegar a la última posición. Por ejemplo en la cerradura de arriba, hay 10  números para elegir (0,1,...,9) y eliges 3 de ellos: 10 × 10 × ... (3 veces) = 103 = 1000 permutaciones.
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        Permutaciones sin repetición: En este caso, se reduce el número de opciones en cada paso.
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314411257_1840255239650556_6844169952656112984_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=9usr-Gr-9NgAX9lHlxi&_nc_ht=scontent.fgua9-1.fna&oh=00_AfDYoR4VMBnEmX4TudOSgVwn9Ucap7j5HM7a1m8jbNSjXA&oe=6369BC19" width="1000" height="600">
+
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+      <pre style="font-size:28px">
+        <center>Combienaciones</center>
+        Una combinación es un arreglo de elementos en donde el orden no importa. 
+        ---Sin repetición: Si cada elemento puede aparecer como mucho una vez---
+        ---Con repetición.  En cambio, si no hay esta restricción---
+
+      </pre>
+    </li>
+
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>Combinaciones sin Repetición</center>
+          Volviendo a las bolas de billar, digamos que queremos saber qué 3 bolas se 
+          eligieron, no el orden. Ya sabemos que 3 de 16 dan 3360 permutaciones.
+          --Ejemplo--
+          De un grupo de 12 alumnos van a sacar su credencial en grupos de 3 en 3. 
+          ¿Cuántas combinaciones se pueden realizar?
+          n= 12 (cantidad de alumnos totales)
+          r= 3 (variable)
+
+        </pre>
+      </li>
+
+      <h1 style="font-size:30px; background-color:rgb(143, 145, 145);">Solución</h1>
+
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314450864_1840258266316920_8236785673203396164_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=mHprpBjlpXcAX-sZamG&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-1.fna&oh=00_AfClHlVe9uhU7JAws4E9Nam8mVF7-_p93l970_eit26NTA&oe=6369FC73" width="1000" height="600">
+<li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+    <pre style="font-size:28px">
+      <center>problema a realizar</center>
+      Si se esta organizando un torneo de ajedrez en donde se inscribieron
+    para participar  10  personas.  Teniendo en cuenta  que  el  orden  en  
+    que  se  jugaran  los partidos  no  importa  ¿Cuántos  partidos  se  deben  
+    programar  si  cada  integrante jugará con cada uno de los demás sin 
+    partidos de revancha?
+    </pre>
+  </li>
+<a href="javascript:void(0);" onclick="ocultarContenido3();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido3() {
+    document.getElementById('contenido3').style.display = 'block';
+    document.getElementById('ocultar3').style.display = 'none';
+}
+function ocultarContenido3() {
+    document.getElementById('contenido3').style.display = 'none';
+    document.getElementById('ocultar3').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido4, #ocultar4{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido4();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido4" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314408873_1840261819649898_8453082133610039234_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=Tm3YgSYdc9sAX99bZjv&_nc_ht=scontent.fgua9-1.fna&oh=00_AfBx0O4ruFU3n2Ttvb9GVk11AZ1QeK5KRSkOvm9D2t58Zw&oe=63695A08" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido4();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido4() {
+    document.getElementById('contenido4').style.display = 'block';
+    document.getElementById('ocultar4').style.display = 'none';
+}
+function ocultarContenido4() {
+    document.getElementById('contenido4').style.display = 'none';
+    document.getElementById('ocultar4').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Tercera Clase</h2>
+<style type="text/css"> #contenido5, #ocultar5{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido5();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido5" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Teoría de Conjuntos</h1>
+
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314526016_1840271012982312_9022845796610595721_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=PLFLfXzmDCEAX_Lg7iA&_nc_oc=AQkH39zyXJ8-lBdEbGckzmeh5k5RYA52a0NgO6nX7IlkIoADslVtxI0_Hc2-3pdTmkQ&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDlWD0zeO9TjeyqCPkkMzIfqSS3ggnDieqy8CWkRsKeZw&oe=636B1361" width="1000" height="600">
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314587760_1840270996315647_2739123552476860584_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=g5zZs6I8ppEAX-aFhDq&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCAj5xFEOKqpOI_auXsukeUPBQgrFbkf7wzZUormACgiw&oe=636A7111" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314415701_1840270999648980_7529137287253858027_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=8KHaAohIjmwAX9Jbdda&_nc_ht=scontent.fgua9-2.fna&oh=00_AfAEkYdqV5UaE_XDGnO5a_xcwF2MmjPelqp5omy59286xw&oe=636A00CD" width="1000" height="600">
+<h1 style="font-size:30px; background-color:rgb(143, 145, 145);">Ejemplos</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314400445_1840275179648562_1498323860250347198_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=GJG6dW3-b0gAX_LLsIm&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCxRdbCpk5CIJDXn9rWpJfyS6a9G6yesrQBHa1nFHAedQ&oe=636AE566https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314400445_1840275179648562_1498323860250347198_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=GJG6dW3-b0gAX_LLsIm&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCxRdbCpk5CIJDXn9rWpJfyS6a9G6yesrQBHa1nFHAedQ&oe=636AE566" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido5();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido5() {
+    document.getElementById('contenido5').style.display = 'block';
+    document.getElementById('ocultar5').style.display = 'none';
+}
+function ocultarContenido5() {
+    document.getElementById('contenido5').style.display = 'none';
+    document.getElementById('ocultar5').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido6, #ocultar6{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido6();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido6" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314061964_1840279569648123_2745250984673974857_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=agRGwfp-RBAAX9CAmCb&_nc_ht=scontent.fgua9-1.fna&oh=00_AfC1XxKY-vyBggaNtkisU2s8YmRnWX_kD6HdSW4HYmQQHA&oe=636B1A22" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido6();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido6() {
+    document.getElementById('contenido6').style.display = 'block';
+    document.getElementById('ocultar6').style.display = 'none';
+}
+function ocultarContenido6() {
+    document.getElementById('contenido6').style.display = 'none';
+    document.getElementById('ocultar6').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Cuarta Clase</h2>
+<style type="text/css"> #contenido7, #ocultar7{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido7();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido7" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Diagramas de Venn y Producto Cartesiano</h1>
+<p style="font-size:28px;">Diagramas de Venn</p>
+
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314512533_1840285329647547_7463526768509556039_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=wcyKMUHEB8YAX8YvEuq&_nc_ht=scontent.fgua9-1.fna&oh=00_AfAYVT5WXkkyUre2bkLYn1eaRrtnjT9S6CGzWaSQx5FnFQ&oe=6369C38C" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314645754_1840285352980878_6443192459530160119_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=yB36mYvtiMgAX9QhrnA&_nc_ht=scontent.fgua9-2.fna&oh=00_AfAo1YHyIp1Wj0SXu9zZ30O8JubUnjyjUViUjStAC7acFA&oe=6369908A" width="1000" height="600">
+<li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+    <pre style="font-size:28px">
+      <center>Producto Cartesiano</center>
+      El producto cartesiano de un conjunto A y de un 
+       el conjunto constituido por la totalidad de los 
+       pares ordenados que tienen un primer componente 
+       en A y un segundo componente en B.
+
+    </pre>
+  </li>
+<a href="javascript:void(0);" onclick="ocultarContenido7();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido7() {
+    document.getElementById('contenido7').style.display = 'block';
+    document.getElementById('ocultar7').style.display = 'none';
+}
+function ocultarContenido7() {
+    document.getElementById('contenido7').style.display = 'none';
+    document.getElementById('ocultar7').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido8, #ocultar8{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido8();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido8" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/313910999_1840285339647546_8779921786310066125_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=Ik-67TpTmTMAX_4FgCx&_nc_ht=scontent.fgua9-2.fna&oh=00_AfBA2nKPHiOk4qlfSPP2PUyyRfnlCsI9-utygRtLrPXJ6w&oe=636AD5C3" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido8();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido8() {
+    document.getElementById('contenido8').style.display = 'block';
+    document.getElementById('ocultar8').style.display = 'none';
+}
+function ocultarContenido8() {
+    document.getElementById('contenido8').style.display = 'none';
+    document.getElementById('oculta8').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Quinta Clase</h2>
+<style type="text/css"> #contenido9, #ocultar9{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido9();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido9" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Inducción Matematica</h1>
+<p style="font-size:28px;">La inducción matemática es un método de demostración que se utiliza cuando se trata de 
+    establecer la veracidad de una lista infinita de proposiciones.
+    </p>
+<li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+    <pre style="font-size:28px">
+      <center>Base Inducción Matemática</center>
+      a.1 es un numero natural. 
+      b.	Si n es un numero natural, entones n+1 
+      tambien es número natural.El principio de la 
+      induccion es usar esta definicion para probar 
+      cosas. Podemos definirlo de varias maneras:
+      
+    I.	Si A es un subconjunto de los numeros naturales tal que:
+      a.	1 pertence a A
+      b.	Si n pertence a A, entonces n+1 pertece a A
+           Entonces A contiene a todos los naturales. 
+    II.	Si una propiedad P de un subconjunto de los numeros naturales cumple que:
+      a.	P es cierta para 1 y
+      b.	Si P es cierta para n, entonces P es cierta para n+1
+      
+      Entonces P es cierta para todoslos naturales.
+    </pre>
+  </li>
+
+  <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+    <pre style="font-size:28px">
+      <center>Analogía de los Dominós</center>
+      Si ponemos todos nuestros dominós parados en una fila, necesitamos 
+      sólo asegurarnos de dos cosas para que se caigan: 
+      a) Que exista al menos un dominó que se caiga. 
+      b) Que si un dominó cae, empuja al siguiente. 
+
+      No tiene que ser el primer dominó. Si tiramos el primero, queremos que 
+      se caigan todos; pero si tiramos el segundo o el tercero o el quinto, 
+      queremos que se caigan todos después el que tiramos. Los números naturales 
+      son como un conjunto infinito pero ordenado de dominós, donde cada dominó 
+      tiene escrito un número. Las pruebas por inducción son como ordenar nuestros 
+      dominós parados en una fila y ver si es posible empujar alguno para que se 
+      caigan todos. 
+
+      •	El caso base es asegurarse de que exista un primer dominó que se caiga.   
+      •	El paso inductivo es suponer que si cumple para algún entero, cumple para el 
+      siguiente. Como sabemos que cumple para el caso base, entonces cumple para el siguiente; 
+      como cumple para el siguiente, cumple a su vez para su siguiente y así sucesivamente 
+      cumplen todos los enteros a partir del caso base.   
+
+      Probar por inducción que n+1=n
+
+      •	Comprobar con 1
+      •	Comprobar con k
+      •	Comprobar con k+1
+      
+    </pre>
+  </li>
+
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314649335_1840364426306304_4005594012687634373_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=X3YsVajWzyEAX9ueZ_R&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDk0HbgGQxb4lJvSoMUNm-VGVVLednTHm2rEljJKSAytg&oe=636A67DE" width="1000" height="400">
+<a href="javascript:void(0);" onclick="ocultarContenido9();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido9() {
+    document.getElementById('contenido9').style.display = 'block';
+    document.getElementById('ocultar9').style.display = 'none';
+}
+function ocultarContenido9() {
+    document.getElementById('contenido9').style.display = 'none';
+    document.getElementById('ocultar9').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido10, #ocultar10{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido10();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido10" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314526680_1840366829639397_2997625068092151446_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=npJA9CgwpSMAX8vdv96&_nc_oc=AQlqolkQdep4w-HlufudNFSVZM3JyreupXBBBXgLn6nT4_Ud4pfefmioKggANgRJWQs&_nc_ht=scontent.fgua9-2.fna&oh=00_AfBdpblsyFovUWxHu3SgfgwS2yHkF-8JMjRLlyVvZ1oC1g&oe=6369667D" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido10();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido10() {
+    document.getElementById('contenido10').style.display = 'block';
+    document.getElementById('ocultar10').style.display = 'none';
+}
+function ocultarContenido10() {
+    document.getElementById('contenido10').style.display = 'none';
+    document.getElementById('ocultar10').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Sexta Clase</h2>
+<style type="text/css"> #contenido11, #ocultar11{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido11();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido11" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Algoritmos de la División</h1>
+<p style="font-size:28px;">Mínimo Común Múltiplo </p>
+<ul>
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        El mínimo común múltiplo (mcm) es el número positivo más pequeño que es múltiplo de dos o más números.
+        Los múltiplos de un número son los que obtienes cuando lo multiplicas por otros números.        
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+    <p style="font-size:28px;">Máximo Común Divisor</p>
+<ul>
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        Dados dos números enteros positivos su máximo común divisor no es más que el mayor de los divisores comunes de ambos números.        
+    <center>ㅤㅤㅤㅤㅤ</center>
+    </li> 
+
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+      <pre style="font-size:28px">
+        <center>Ejemplo</center>
+        Tomemos 45 y 75. Los  
+        divisores de esos números son:
+        Divisores de 45: 1, 3, 5, 9, 15, 45.
+        Divisores de 75: 1, 3, 5, 15, 25, 75.
+
+      </pre>
+    </li>
+
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>El Algoritmo De Euclides</center>
+          Euclides observó la división entera de dos números a, b, con a>b. 
+          La división entre a y b -razonaba Euclides- es una relación entre 
+          dos enteros a y b como sigue:
+          
+          a=b·c+r
+
+          Y en consecuencia:
+          m.c.d.(a, b)=m.c.d.(b, r)
+        </pre>
+      </li>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314434783_1840372306305516_9155856495903882577_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=UOjY5vxV9goAX9f58bG&_nc_ht=scontent.fgua9-2.fna&oh=00_AfBcKiC4hyuCrQkDA4DP-yblOOl6o2zcC9EPG2TRBlss6w&oe=636B0B13" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido11();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido11() {
+    document.getElementById('contenido11').style.display = 'block';
+    document.getElementById('ocultar11').style.display = 'none';
+}
+function ocultarContenido11() {
+    document.getElementById('contenido11').style.display = 'none';
+    document.getElementById('ocultar11').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido12, #ocultar12{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido12();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido12" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314688154_1840372319638848_8446175298168742160_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=24OGiQqivHEAX_ZQ7QD&_nc_ht=scontent.fgua9-1.fna&oh=00_AfDlP8GFMQrSDLPcC8InAKPpM0-WY5eCP8vcsNN6Cskexw&oe=636B4DC7 " width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido12();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido12() {
+    document.getElementById('contenido12').style.display = 'block';
+    document.getElementById('ocultar12').style.display = 'none';
+}
+function ocultarContenido12() {
+    document.getElementById('contenido12').style.display = 'none';
+    document.getElementById('ocultar12').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Séptima Clase</h2>
+<style type="text/css"> #contenido13, #ocultar13{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido13();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido13" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Teoría de Grafos</h1>
+
+
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314577070_1840384206304326_8658815529717695686_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=ixBRiJWF_xIAX-Pvw0v&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCjQCXf0oVfn551XUUQSm8Y2Dkd5wu2Zo25uHdWlM_CIA&oe=636A1838" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314571992_1840384126304334_7250617174659103340_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=TCRgZbz9GfQAX_lhOPG&_nc_ht=scontent.fgua9-2.fna&oh=00_AfC3-HF1aHzcx5dHY7q1qAsPMkmXGwJ9r1ozFRuVRQb0Gw&oe=636AB7A5" width="1000" height="600">
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314558677_1840384136304333_2952664769549266287_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=hrAE8XOl9kkAX-YQUvu&_nc_ht=scontent.fgua9-1.fna&oh=00_AfDzraQKGhSUt4in8GsfttqIgivMbDbnHpBo52k8IHT9bw&oe=636ADC1B" width="1000" height="600">
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314565914_1840384176304329_3500047377957466006_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=CXJV2HKqK20AX8RGeyE&_nc_ht=scontent.fgua9-1.fna&oh=00_AfDg2SsHAkVQpK8C9WL-R2Ir_iVb4SvAqSDtPW6IrVdMxA&oe=63696F28" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido13();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido13() {
+    document.getElementById('contenido13').style.display = 'block';
+    document.getElementById('ocultar13').style.display = 'none';
+}
+function ocultarContenido13() {
+    document.getElementById('contenido13').style.display = 'none';
+    document.getElementById('ocultar13').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido14, #ocultar14{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido14();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido14" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314554908_1840384102971003_7440210047387790898_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=s5MgMkTvzxUAX8XuDob&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCfXJt07BC5HmKukp-ZzZeleRBOKBKJsQ9a9gjcnkSAPw&oe=6369F770" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido14();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido14() {
+    document.getElementById('contenido14').style.display = 'block';
+    document.getElementById('ocultar14').style.display = 'none';
+}
+function ocultarContenido14() {
+    document.getElementById('contenido14').style.display = 'none';
+    document.getElementById('ocultar14').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Octava Clase</h2>
+<style type="text/css"> #contenido15, #ocultar15{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido15();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido15" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Teoría de Arboles</h1>
+
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314599333_1840396336303113_5481158519451437438_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=hnOq1STsv3UAX9Uw7Ng&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCpLWOL60Czm6djM3mHfWb3jp3iOyeowNuCfIkAeU2ejA&oe=636A804D" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314533935_1840396346303112_9164344379930695479_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=W1LG9IgyeY0AX-8cVU4&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDv2CmNI4DYc0R6CGIHntjxhKrvIxVssiPfg3O0LuONeA&oe=636AF369" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314505957_1840396312969782_8886488717393960312_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=faSIjyKD8rUAX8xETpm&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDIo1L8hWWEQWYASujMN7aM-MVMaGL8NB4mKCHylgj6Nw&oe=636B4BBC" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido15();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido15() {
+    document.getElementById('contenido15').style.display = 'block';
+    document.getElementById('ocultar15').style.display = 'none';
+}
+function ocultarContenido15() {
+    document.getElementById('contenido15').style.display = 'none';
+    document.getElementById('ocultar15').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido16, #ocultar16{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido16();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido16" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314414998_1840395242969889_896667584418567060_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=zDa_DiPooXMAX976cq5&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCityffUfbnW9R4jydTY4kIeM5Joe4WjnsGv8IuiHF5xg&oe=636A2C4E" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido16();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido16() {
+    document.getElementById('contenido16').style.display = 'block';
+    document.getElementById('ocultar16').style.display = 'none';
+}
+function ocultarContenido16() {
+    document.getElementById('contenido16').style.display = 'none';
+    document.getElementById('ocultar16').style.display = 'block';
+}
+</script>
+
+<h2 class="clase"style="font-size:30px;">Novena Clase</h2>
+<style type="text/css"> #contenido17, #ocultar17{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido17();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido17" style="display: none;">
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema:  Recorrido de Arboles</h1>
+
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314614047_1840424219633658_3766206880969284925_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=xA68hLg2fXgAX-q1co0&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCYaE6Ovi1bRzK6_A_nKvSQA7C9eqCbM7rmxLkxLNDj_w&oe=6369C153" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314601414_1840424179633662_4714239651095816190_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=--ki5DrdiFMAX_Qh_4d&tn=J3B4-OLeNqcPziiQ&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCM_1LjMYki4VN7WJmE7VsX3LUVPqtfLOeykdVZy7m6Uw&oe=636B37F3" width="1000" height="600">
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314535321_1840424139633666_3552364228613097818_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=S6UUKQ57RJsAX-0VWJb&_nc_ht=scontent.fgua9-2.fna&oh=00_AfC58_16PrHwkXOJYe_DGY3dgrw6OqX5zfbOVyCF03476A&oe=6369ADA2" width="1000" height="600">
+
+<h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema: Algoritmos de la División</h1>
+<img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/312745354_1840424112967002_4279282504460438926_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=t488a9Ee0bcAX_ASkH5&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDCwnZGqrvhDb6Sg4MAQ_ThaKDNBC635jstxAc9oCi6gA&oe=636B33E0" width="1000" height="600">
+<a href="javascript:void(0);" onclick="ocultarContenido17();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido17() {
+    document.getElementById('contenido17').style.display = 'block';
+    document.getElementById('ocultar17').style.display = 'none';
+}
+function ocultarContenido17() {
+    document.getElementById('contenido17').style.display = 'none';
+    document.getElementById('ocultar17').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido18, #ocultar18{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido18();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido18" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314538385_1840424129633667_8523550241767224460_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=dlYxw6sjD3oAX8edBxI&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCSDD00iTiFJvoE4IHcbMwwndgznjDcD9ZmX9ASPLBDBg&oe=63699EC5" width="1000" height="400">
+<a href="javascript:void(0);" onclick="ocultarContenido18();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido18() {
+    document.getElementById('contenido18').style.display = 'block';
+    document.getElementById('ocultar18').style.display = 'none';
+}
+function ocultarContenido18() {
+    document.getElementById('contenido18').style.display = 'none';
+    document.getElementById('ocultar18').style.display = 'block';
+}
+</script>
+
+<h2 class="clase" style="font-size:30px;">Décima Clase</h2>
+<style type="text/css"> #contenido19, #ocultar19{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido19();" style="font-size:25px;">Ver Clase</button>
+
+<div id="contenido19" style="display: none;">
+    <h1 style="font-size:35px; background-color:rgb(143, 145, 145);">Tema:  Algebra Vectorial</h1>
+    <p style="font-size:28px;">Cantidades Escalares y Vectoriales</p>
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>Cantidad Escalar: </center>
+          Esta especificada por un valor con la unidad apropiada
+    
+          Ejemplo: Temperatura, Masa, Volumen, Tiempo
+          
+          Estas cantidades pueden tener valores positivos, negativos o tener un valor cero
+          
+          Sus operaciones matemáticas se realizan utilizando las reglas de la aritmética
+      </li>
+    
+      <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>Cantidad Vectorial</center>
+          Son aquellas que quedan totalmente definidas con un módulo, 
+          una dirección y un sentido. 
+    
+          Es el caso de la fuerza, la velocidad, el desplazamiento. 
+          En estas magnitudes es necesario especificar hacia dónde se 
+          dirigen y, en algunos casos  dónde se encuentran aplicadas. 
+          
+          Todas las magnitudes vectoriales se representan gráficamente 
+          mediante vectores, que se simbolizan a través de una flecha.
+        </pre>
+      </li>
+    
+      <h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Sistema de Coordenadas Cartesianas</h1>
+    
+    <img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314408422_1840402832969130_5319566163960734715_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Xkr3yQAJizIAX98u6Yl&_nc_ht=scontent.fgua9-2.fna&oh=00_AfBZLW9pHzrIHBP5Uq336v_b7m6lUVNgzjLd6WksVefWyQ&oe=6369A9CF" width="1000" height="600">
+    <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>Operaciones Geométricas Vectoriales</center>
+          Suma de Vectores: Al sumar dos vectores se obtiene otro vector 
+          (vector suma o resultante). Para obtener el vector suma es necesario 
+          recurrir a lo que se conoce como “regla del paralelogramo”. Esto es, 
+          se construye un paralelogramo que tenga los vectores como lados y se 
+          traza la diagonal del mismo para obtener el vector suma.
+        </pre>
+      </li>
+    
+      <li style="color:rgb(250, 250, 255); font-size:28px; background-color:rgb(71, 73, 73);">
+        <pre style="font-size:28px">
+          <center>Resta Geométrica de Vectores</center>
+          Para la resta se procede de la misma forma que la suma, 
+          pero el vector que resta se debe dibujar con sentido contrario, 
+          o sea el signo negativo cambia el sentido del vector. Luego el 
+          vector resultante es el que va desde el punto inicial del primer 
+          vector, hasta el final del vector que se le cambio el sentido.
+    
+        </pre>
+      </li>
+      <img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314468244_1840408999635180_5101886090151577165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=4E-XK3Fq5g8AX82WcYe&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCXaBwkNC4qLRP-VKHQT3aOIURWcUCCUWgp_Dp2Z1oE-g&oe=636B5A51" width="1000" height="600">
+      <h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Resolver</h1>
+      <img src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/314398362_1840405929635487_7696257893831320907_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=CKd2CfJk1YkAX-0DmNE&_nc_ht=scontent.fgua9-2.fna&oh=00_AfDRu8KbEj0FjCDvjZtDCpINn9AF8BJgs5bithOMpb8Ezw&oe=63698801" width="1000" height="400">
+<a href="javascript:void(0);" onclick="ocultarContenido19();" style="font-size:25px;">Ocultar Clase</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido19() {
+    document.getElementById('contenido19').style.display = 'block';
+    document.getElementById('ocultar19').style.display = 'none';
+}
+function ocultarContenido19() {
+    document.getElementById('contenido19').style.display = 'none';
+    document.getElementById('ocultar19').style.display = 'block';
+}
+</script>
+
+<div>ㅤㅤㅤㅤㅤ</div>
+
+<style type="text/css"> #contenido20, #ocultar20{ display: none;
+}
+</style>
+</head>
+<body>
+
+<button type="button" onclick="mostrarContenido20();" style="font-size:25px;">Ver Problema</button>
+
+<div id="contenido20" style="display: none;">    
+<h1 style="font-size:35px;background-color:rgb(143, 145, 145);">Solución al Problema</h1>
+<img src="https://scontent.fgua9-1.fna.fbcdn.net/v/t39.30808-6/314580102_1840405919635488_5642945535198460527_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=U1t58H53OokAX-gsikT&_nc_ht=scontent.fgua9-1.fna&oh=00_AfDQZrtg6owpGjAy6IlgNM1UiU0HEV3EghBvlyCkjc_Y7g&oe=636B17F5" width="1000" height="400">
+<a href="javascript:void(0);" onclick="ocultarContenido20();" style="font-size:25px;">Ocultar Problema</a>
+</div>
+
+<script type="text/javascript">
+function mostrarContenido20() {
+    document.getElementById('contenido20').style.display = 'block';
+    document.getElementById('ocultar20').style.display = 'none';
+}
+function ocultarContenido20() {
+    document.getElementById('contenido20').style.display = 'none';
+    document.getElementById('ocultar20').style.display = 'block';
+}
+</script>
+    <pre style="font-size:20px; color:rgb(250, 250, 255); font-size:20px; background-color:rgb(78, 80, 80);">
+      <center><a style="font-family:Brush Script MT; font-size:55px;" href="https://ggbrie.github.io/Creditos/">Creditos</a></center>
+    </pre>
+</body>
+</html>
